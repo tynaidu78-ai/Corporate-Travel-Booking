@@ -1,0 +1,7 @@
+## Architecture Diagrams
+
+### Solution Architecture
+![Solution Architecture](architecture/01-solution-architecture.png)
+
+### End-to-End Data Flow
+![End-to-End Data Flow](architecture/02-end-to-end-data-flow.png)
