@@ -14,6 +14,17 @@ The solution is designed to process booking events from multiple source systems,
 
 The platform follows an event-driven and lakehouse-based architecture.
 
+## Architecture Diagrams
+
+### Solution Architecture
+
+![Solution Architecture](architecture/01-solution-architecture.png)
+
+### End-to-End Data Flow
+
+![End-to-End Data Flow](architecture/02-end-to-end-data-flow.png)
+
+
 ```text
 Source Systems
     ↓
