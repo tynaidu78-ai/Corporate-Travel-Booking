@@ -1,0 +1,7 @@
+01_bronze_bookings_raw_refresh.ipynb: OK
+02_bronze_bookings_clean_stage_refresh.ipynb: OK
+03_silver_bookings_validation_refresh.ipynb: OK
+04_gold_bookings_detail_refresh.ipynb: OK
+05_gold_summary_refresh.ipynb: OK
+README.md: CHECK token
+sanitization-check.txt: CHECK token

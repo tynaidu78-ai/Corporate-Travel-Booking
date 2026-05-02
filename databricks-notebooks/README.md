@@ -1,6 +1,6 @@
 # Databricks Notebooks
 
-This folder contains sanitized Databricks notebooks for the Corporate Travel Booking Data Platform.
+These are sanitized portfolio notebooks for the Corporate Travel Booking Data Platform.
 
 ## Execution Order
 
@@ -12,8 +12,13 @@ This folder contains sanitized Databricks notebooks for the Corporate Travel Boo
 
 ## Notes
 
-- These notebooks are sanitized portfolio versions.
-- Resource names, paths, and sample values are anonymized.
-- Replace placeholder paths before running in a real Databricks workspace.
-- Confirm that Unity Catalog schemas exist before execution.
+- Replace placeholder storage paths before running.
+- Confirm that the Unity Catalog catalog/schemas exist:
+  - `corporate_travel_analytics.bronze`
+  - `corporate_travel_analytics.silver`
+  - `corporate_travel_analytics.gold`
+  - `corporate_travel_analytics.control`
+- The Silver and Gold incremental notebooks expect a control table named:
+  - `corporate_travel_analytics.control.pipeline_watermark`
 - Notebook outputs have been cleared before publishing.
+- No secrets, keys, tokens, or real customer data are included.
