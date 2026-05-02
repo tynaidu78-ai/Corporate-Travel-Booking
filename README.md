@@ -455,7 +455,7 @@ This platform provides:
 
 ---
 
-## Interview Explanation
+## End-to-End Workflow Summary
 
 A short explanation of the project:
 
