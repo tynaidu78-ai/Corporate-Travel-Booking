@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<your-azure-webjobs-storage-connection-string>",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "ServiceBusConnection": "<your-service-bus-connection-string>",
+    "INGESTION_QUEUE_NAME": "ingestion-queue",
+    "CosmosDBConnection": "<your-cosmos-db-mongo-connection-string>",
+    "COSMOS_DB_NAME": "CorporateTravelDB",
+    "AZURE_OPENAI_ENDPOINT": "<your-azure-openai-endpoint>",
+    "AZURE_OPENAI_KEY": "<your-azure-openai-key>",
+    "AZURE_OPENAI_DEPLOYMENT": "gpt-4.1-mini",
+    "AZURE_OPENAI_API_VERSION": "2024-12-01-preview",
+    "FAILED_BOOKING_ALERT_WEBHOOK_URL": "<your-logic-app-http-trigger-url>",
+    "FAILED_BOOKING_ALERT_BATCH_LIMIT": "100",
+    "FAILED_BOOKING_SUMMARY_CRON": "0 */10 * * * *"
+  }
+}
